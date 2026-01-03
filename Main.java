@@ -16,6 +16,7 @@ public class Main {
             tree.addEdges(3,4);
             tree.addEdges(1,3);
             tree.addEdges(4,5);
+            System.out.println("Adding line here");
             /*
                       1
                      /  \
@@ -41,6 +42,7 @@ public class Main {
                 tree[i] = new ArrayList<>();
             }
             this.lg = (int)(Math.log(n)/Math.log(2))+1;
+            System.out.println("Adding line here2");
             this.parent = new int[n+1][lg+1];
             for (int i = 0; i <= n; i++) {
                 Arrays.fill(parent[i], -1);
