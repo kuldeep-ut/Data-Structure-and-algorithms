@@ -40,6 +40,7 @@ public class Main {
             this.tree = new ArrayList[n+1];
             for(int i=0;i<n+1;i++){
                 tree[i] = new ArrayList<>();
+                System.out.println("Adding line here");
             }
             this.lg = (int)(Math.log(n)/Math.log(2))+1;
             System.out.println("Adding line here2");
